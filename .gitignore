@@ -1,0 +1,14 @@
+# Ignore everything in this directory by default
+*
+
+# Allow these files to be tracked
+!README.md
+!.gitignore
+!requirements.txt
+
+# If you create a real virtual environment directory inside this folder, ignore it
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,6 @@
+# Add your Python dependencies below, one per line, for example:
+# requests==2.31.0
+# pandas==2.2.3
+
+# To populate this file with currently installed packages, run:
+# pip freeze > venv/requirements.txt
