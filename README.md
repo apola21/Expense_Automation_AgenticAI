@@ -1,6 +1,17 @@
-# Virtual Environment (venv)
+# Demo README for Expense Auto Project
 
-This folder contains environment-related files for the project. It's not the actual virtual environment directory created by Python's venv module; instead it stores supporting files (README, .gitignore, requirements.txt) as requested.
+This repo is to push the code for the agentic ai solution
+
+Flow of steps in Solution:
+
+1. Ingestion & Triggering
+2. Intelligent Document Analysis (The "Reading Agent")
+3. Data Extraction & Enrichment (The "Extraction Agent")
+4. Validation & Business Logic (The "Validation Agent")
+5. Human-in-the-Loop & Interaction (The "Orchestrator")
+6. Final Transformation & Staging (The "Formatting Agent")
+7. Securely Writing to PeopleSoft (The "Writing Agent")
+8. Sending a notification to the user
 
 Quick usage (macOS, zsh):
 
@@ -21,5 +32,6 @@ Quick usage (macOS, zsh):
    pip freeze > venv/requirements.txt
 
 Notes:
+
 - Replace `.venv` with your preferred venv folder name.
 - If your system's Python is `python` instead of `python3`, adjust the commands accordingly.
