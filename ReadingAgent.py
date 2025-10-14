@@ -7,7 +7,7 @@ import google.generativeai as genai
 import json
 
 # ==================== CONFIGURATION ====================
-ENV = os.getenv("ENV", "STAGE").upper()
+ENV = os.getenv("ENV", "AGENT").upper()
 DAYS_INTERVAL = int(os.getenv("DAYS_INTERVAL", "1"))
 
 try:
