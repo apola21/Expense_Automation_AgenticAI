@@ -5,6 +5,7 @@
 !README.md
 !.gitignore
 !requirements.txt
+!reading_agent.py
 
 # If you create a real virtual environment directory inside this folder, ignore it
 .venv/
