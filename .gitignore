@@ -1,15 +1,29 @@
-# Ignore everything in this directory by default
-*
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
 
-# Allow these files to be tracked
-!README.md
-!.gitignore
-!requirements.txt
-!reading_agent.py
-
-# If you create a real virtual environment directory inside this folder, ignore it
+# Virtual environments
 .venv/
 env/
 venv/
-__pycache__/
-*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
