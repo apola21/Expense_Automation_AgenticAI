@@ -1,6 +1,12 @@
-# Add your Python dependencies below, one per line, for example:
-# requests==2.31.0
-# pandas==2.2.3
+# Core dependencies for Extraction Agent
+oci==2.112.0
+loguru==0.7.2
 
 # To populate this file with currently installed packages, run:
 # pip freeze > venv/requirements.txt
+
+
+fdk>=0.1.66
+oci>=2.115.0
+google-generativeai>=0.5.0
+requests>=2.31.0
