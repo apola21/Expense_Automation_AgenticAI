@@ -14,4 +14,3 @@ OCI_TARGET_BUCKET_NAME = ''
 # Gemini AI Configuration
 GEMINI_API_KEY = ""
 
-
